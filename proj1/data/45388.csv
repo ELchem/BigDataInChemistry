@@ -1,0 +1,84 @@
+NSC,ConcentrationUnit,LogHighConc,CellPanelName,CellLineName,CellPanelNbr,CellLineNbr,logValue,NumTestsNSCCellLine,NumofExp
+45388,log10(M),-4.0,Leukemia,CCRF-CEM,7,3,-4.934,43,50
+45388,log10(M),-4.0,Leukemia,HL-60(TB),7,8,-4.819,41,50
+45388,log10(M),-4.0,Leukemia,K-562,7,5,-4.756,45,50
+45388,log10(M),-4.0,Leukemia,MOLT-4,7,6,-4.678,45,50
+45388,log10(M),-4.0,Leukemia,RPMI-8226,7,10,-4.714,41,50
+45388,log10(M),-4.0,Leukemia,SR,7,19,-4.723,7,50
+45388,log10(M),-4.0,Non-Small Cell Lung,A549/ATCC,1,4,-4.018,50,50
+45388,log10(M),-4.0,Non-Small Cell Lung,EKVX,1,8,-4.117,44,50
+45388,log10(M),-4.0,Non-Small Cell Lung,HOP-18,1,27,-4.81,38,50
+45388,log10(M),-4.0,Non-Small Cell Lung,HOP-62,1,26,-4.599,39,50
+45388,log10(M),-4.0,Non-Small Cell Lung,HOP-92,1,29,-4.515,44,50
+45388,log10(M),-4.0,Non-Small Cell Lung,NCI-H226,1,13,-4.124,41,50
+45388,log10(M),-4.0,Non-Small Cell Lung,NCI-H23,1,1,-4.025,48,50
+45388,log10(M),-4.0,Non-Small Cell Lung,NCI-H322M,1,17,-4.022,42,50
+45388,log10(M),-4.0,Non-Small Cell Lung,NCI-H460,1,21,-4.226,47,50
+45388,log10(M),-4.0,Non-Small Cell Lung,NCI-H522,1,3,-4.135,45,50
+45388,log10(M),-4.0,Non-Small Cell Lung,LXFL 529,1,30,-4.005,11,50
+45388,log10(M),-4.0,Small Cell Lung,DMS 114,2,9,-4.136,39,50
+45388,log10(M),-4.0,Small Cell Lung,DMS 273,2,11,-4.883,39,50
+45388,log10(M),-4.0,Colon,COLO 205,4,10,-4.095,47,50
+45388,log10(M),-4.0,Colon,DLD-1,4,11,-4.244,42,50
+45388,log10(M),-4.0,Colon,HCC-2998,4,2,-4.339,46,50
+45388,log10(M),-4.0,Colon,HCT-116,4,3,-4.407,48,50
+45388,log10(M),-4.0,Colon,HCT-15,4,15,-4.024,45,50
+45388,log10(M),-4.0,Colon,HT29,4,1,-4.052,46,50
+45388,log10(M),-4.0,Colon,KM12,4,17,-4.023,46,50
+45388,log10(M),-4.0,Colon,KM20L2,4,18,-4.264,39,50
+45388,log10(M),-4.0,Colon,SW-620,4,9,-4.252,47,50
+45388,log10(M),-4.0,Central Nervous System,SF-268,12,14,-4.195,44,50
+45388,log10(M),-4.0,Central Nervous System,SF-295,12,15,-4.258,46,50
+45388,log10(M),-4.0,Central Nervous System,SF-539,12,16,-4.174,47,50
+45388,log10(M),-4.0,Central Nervous System,SNB-19,12,2,-4.004,49,50
+45388,log10(M),-4.0,Central Nervous System,SNB-75,12,5,-4.443,47,50
+45388,log10(M),-4.0,Central Nervous System,SNB-78,12,6,-4.205,37,50
+45388,log10(M),-4.0,Central Nervous System,U251,12,9,-4.027,50,50
+45388,log10(M),-4.0,Central Nervous System,XF 498,12,17,-4.645,33,50
+45388,log10(M),-4.0,Melanoma,LOX IMVI,10,1,-4.927,46,50
+45388,log10(M),-4.0,Melanoma,MALME-3M,10,2,-4.363,41,50
+45388,log10(M),-4.0,Melanoma,M14,10,14,-4.568,18,50
+45388,log10(M),-4.0,Melanoma,MDA-MB-435,5,11,-4.504,2,50
+45388,log10(M),-4.0,Melanoma,MDA-N,5,12,-4.065,4,50
+45388,log10(M),-4.0,Melanoma,M19-MEL,10,16,-4.166,42,50
+45388,log10(M),-4.0,Melanoma,SK-MEL-2,10,5,-5.004,44,50
+45388,log10(M),-4.0,Melanoma,SK-MEL-28,10,8,-4.064,46,50
+45388,log10(M),-4.0,Melanoma,SK-MEL-5,10,7,-4.118,48,50
+45388,log10(M),-4.0,Melanoma,UACC-257,10,21,-4.298,42,50
+45388,log10(M),-4.0,Melanoma,UACC-62,10,20,-4.446,46,50
+45388,log10(M),-4.0,Ovarian,IGROV1,6,10,-4.145,46,50
+45388,log10(M),-4.0,Ovarian,OVCAR-3,6,1,-4.244,44,50
+45388,log10(M),-4.0,Ovarian,OVCAR-4,6,2,-4.449,45,50
+45388,log10(M),-4.0,Ovarian,OVCAR-5,6,3,-4.088,49,50
+45388,log10(M),-4.0,Ovarian,OVCAR-8,6,5,-4.35,49,50
+45388,log10(M),-4.0,Ovarian,NCI/ADR-RES,5,2,-4.179,32,50
+45388,log10(M),-4.0,Ovarian,SK-OV-3,6,11,-4.692,48,50
+45388,log10(M),-4.0,Renal,786-0,9,18,-4.053,19,50
+45388,log10(M),-4.0,Renal,A498,9,13,-4.14,35,50
+45388,log10(M),-4.0,Renal,ACHN,9,23,-4.488,19,50
+45388,log10(M),-4.0,Renal,CAKI-1,9,15,-4.716,43,50
+45388,log10(M),-4.0,Renal,RXF 393,9,16,-4.084,42,50
+45388,log10(M),-4.0,Renal,RXF-631,9,17,-4.293,10,50
+45388,log10(M),-4.0,Renal,SN12C,9,8,-4.102,47,50
+45388,log10(M),-4.0,Renal,SN12K1,9,10,-4.544,28,50
+45388,log10(M),-4.0,Renal,TK-10,9,24,-4.366,20,50
+45388,log10(M),-4.0,Renal,UO-31,9,4,-4.503,48,50
+45388,log10(M),-4.0,Leukemia,P388,7,1,-4.715,25,50
+45388,log10(M),-4.0,Leukemia,P388/ADR,7,2,-4.395,24,50
+45388,log10(M),-4.0,Prostate,PC-3,11,1,-4.016,4,50
+45388,log10(M),-4.0,Prostate,DU-145,11,3,-4.143,4,50
+45388,log10(M),-4.0,Breast,MCF7,5,1,-4.047,28,50
+45388,log10(M),-4.0,Breast,MDA-MB-231/ATCC,5,5,-4.0,3,50
+45388,log10(M),-4.0,Breast,HS 578T,5,6,-4.0,4,50
+45388,log10(M),-4.0,Breast,BT-549,5,13,-4.0,1,50
+45388,log10(M),-4.0,Breast,T-47D,5,14,-4.035,4,50
+45388,log10(M),-4.0,Non-Small Cell Lung,SW-1573,1,31,-4.325,1,50
+45388,log10(M),-4.0,Colon,COLO 741,4,19,-4.429,1,50
+45388,log10(M),-4.0,Colon,CXF 264L,4,20,-4.0,1,50
+45388,log10(M),-4.0,Colon,COLO 746,4,21,-4.0,1,50
+45388,log10(M),-4.0,Breast,UISO-BCA-1,5,7,-4.0,1,50
+45388,log10(M),-4.0,Renal,SW-156,9,19,-4.072,2,50
+45388,log10(M),-4.0,Renal,TK-164,9,20,-4.174,1,50
+45388,log10(M),-4.0,Melanoma,MEXF 514L,10,22,-4.312,1,50
+45388,log10(M),-4.0,LYM,HT,24,2,-4.106,2,50
+45388,log10(M),-4.0,LYM,DB,24,7,-4.678,2,50

@@ -1,0 +1,78 @@
+NSC,ConcentrationUnit,LogHighConc,CellPanelName,CellLineName,CellPanelNbr,CellLineNbr,logValue,NumTestsNSCCellLine,NumofExp
+122758,log10(M),-4.0,Leukemia,CCRF-CEM,7,3,-4.354,4,5
+122758,log10(M),-4.0,Leukemia,HL-60(TB),7,8,-4.745,4,5
+122758,log10(M),-4.0,Leukemia,K-562,7,5,-4.405,4,5
+122758,log10(M),-4.0,Leukemia,MOLT-4,7,6,-4.361,5,5
+122758,log10(M),-4.0,Leukemia,RPMI-8226,7,10,-5.872,4,5
+122758,log10(M),-4.0,Leukemia,SR,7,19,-4.328,5,5
+122758,log10(M),-4.0,Non-Small Cell Lung,A549/ATCC,1,4,-4.399,5,5
+122758,log10(M),-4.0,Non-Small Cell Lung,EKVX,1,8,-4.0,3,5
+122758,log10(M),-4.0,Non-Small Cell Lung,HOP-18,1,27,-4.0,1,5
+122758,log10(M),-4.0,Non-Small Cell Lung,HOP-62,1,26,-4.302,5,5
+122758,log10(M),-4.0,Non-Small Cell Lung,HOP-92,1,29,-4.195,4,5
+122758,log10(M),-4.0,Non-Small Cell Lung,NCI-H226,1,13,-4.363,4,5
+122758,log10(M),-4.0,Non-Small Cell Lung,NCI-H23,1,1,-4.257,5,5
+122758,log10(M),-4.0,Non-Small Cell Lung,NCI-H322M,1,17,-4.117,4,5
+122758,log10(M),-4.0,Non-Small Cell Lung,NCI-H460,1,21,-4.312,5,5
+122758,log10(M),-4.0,Non-Small Cell Lung,NCI-H522,1,3,-4.245,5,5
+122758,log10(M),-4.0,Non-Small Cell Lung,LXFL 529,1,30,-4.0,1,5
+122758,log10(M),-4.0,Small Cell Lung,DMS 114,2,9,-4.0,2,5
+122758,log10(M),-4.0,Small Cell Lung,DMS 273,2,11,-4.0,2,5
+122758,log10(M),-4.0,Colon,COLO 205,4,10,-4.307,5,5
+122758,log10(M),-4.0,Colon,DLD-1,4,11,-4.0,2,5
+122758,log10(M),-4.0,Colon,HCC-2998,4,2,-4.287,5,5
+122758,log10(M),-4.0,Colon,HCT-116,4,3,-4.313,5,5
+122758,log10(M),-4.0,Colon,HCT-15,4,15,-4.317,5,5
+122758,log10(M),-4.0,Colon,HT29,4,1,-4.322,5,5
+122758,log10(M),-4.0,Colon,KM12,4,17,-4.374,4,5
+122758,log10(M),-4.0,Colon,KM20L2,4,18,-4.0,2,5
+122758,log10(M),-4.0,Colon,SW-620,4,9,-4.339,4,5
+122758,log10(M),-4.0,Central Nervous System,SF-268,12,14,-4.204,4,5
+122758,log10(M),-4.0,Central Nervous System,SF-295,12,15,-4.261,5,5
+122758,log10(M),-4.0,Central Nervous System,SF-539,12,16,-4.313,5,5
+122758,log10(M),-4.0,Central Nervous System,SNB-19,12,2,-4.323,4,5
+122758,log10(M),-4.0,Central Nervous System,SNB-75,12,5,-4.208,4,5
+122758,log10(M),-4.0,Central Nervous System,SNB-78,12,6,-4.0,2,5
+122758,log10(M),-4.0,Central Nervous System,U251,12,9,-4.29,5,5
+122758,log10(M),-4.0,Central Nervous System,XF 498,12,17,-4.0,2,5
+122758,log10(M),-4.0,Melanoma,LOX IMVI,10,1,-4.496,3,5
+122758,log10(M),-4.0,Melanoma,MALME-3M,10,2,-4.334,4,5
+122758,log10(M),-4.0,Melanoma,M14,10,14,-4.306,5,5
+122758,log10(M),-4.0,Melanoma,MDA-MB-435,5,11,-4.233,2,5
+122758,log10(M),-4.0,Melanoma,MDA-N,5,12,-4.339,3,5
+122758,log10(M),-4.0,Melanoma,M19-MEL,10,16,-4.0,2,5
+122758,log10(M),-4.0,Melanoma,SK-MEL-2,10,5,-4.539,3,5
+122758,log10(M),-4.0,Melanoma,SK-MEL-28,10,8,-4.27,5,5
+122758,log10(M),-4.0,Melanoma,SK-MEL-5,10,7,-4.321,5,5
+122758,log10(M),-4.0,Melanoma,UACC-257,10,21,-4.205,5,5
+122758,log10(M),-4.0,Melanoma,UACC-62,10,20,-4.192,4,5
+122758,log10(M),-4.0,Ovarian,IGROV1,6,10,-4.103,4,5
+122758,log10(M),-4.0,Ovarian,OVCAR-3,6,1,-4.332,5,5
+122758,log10(M),-4.0,Ovarian,OVCAR-4,6,2,-4.155,4,5
+122758,log10(M),-4.0,Ovarian,OVCAR-5,6,3,-4.164,4,5
+122758,log10(M),-4.0,Ovarian,OVCAR-8,6,5,-4.185,4,5
+122758,log10(M),-4.0,Ovarian,NCI/ADR-RES,5,2,-4.428,3,5
+122758,log10(M),-4.0,Ovarian,SK-OV-3,6,11,-4.144,4,5
+122758,log10(M),-4.0,Renal,786-0,9,18,-4.302,5,5
+122758,log10(M),-4.0,Renal,A498,9,13,-4.128,4,5
+122758,log10(M),-4.0,Renal,ACHN,9,23,-4.314,5,5
+122758,log10(M),-4.0,Renal,CAKI-1,9,15,-4.152,4,5
+122758,log10(M),-4.0,Renal,RXF 393,9,16,-4.167,4,5
+122758,log10(M),-4.0,Renal,RXF-631,9,17,-4.0,2,5
+122758,log10(M),-4.0,Renal,SN12C,9,8,-4.284,5,5
+122758,log10(M),-4.0,Renal,TK-10,9,24,-4.144,4,5
+122758,log10(M),-4.0,Renal,UO-31,9,4,-4.192,4,5
+122758,log10(M),-4.0,Prostate,PC-3,11,1,-4.402,3,5
+122758,log10(M),-4.0,Prostate,DU-145,11,3,-4.257,3,5
+122758,log10(M),-4.0,Breast,MCF7,5,1,-4.537,3,5
+122758,log10(M),-4.0,Breast,MDA-MB-231/ATCC,5,5,-4.298,3,5
+122758,log10(M),-4.0,Breast,HS 578T,5,6,-4.367,2,5
+122758,log10(M),-4.0,Breast,BT-549,5,13,-4.428,3,5
+122758,log10(M),-4.0,Breast,T-47D,5,14,-5.593,2,5
+122758,log10(M),-4.0,CNS Cancer,U-251/H.Fine,12,31,-4.853,1,5
+122758,log10(M),-4.0,CNS Cancer,LN-229/H.Fine,12,32,-4.701,1,5
+122758,log10(M),-4.0,CNS Cancer,U-87/H.Fine,12,33,-4.724,1,5
+122758,log10(M),-4.0,CNS Cancer,T98G/H.Fine,12,34,-6.648,1,5
+122758,log10(M),-4.0,CNS Cancer,A-172/H.Fine,12,35,-4.807,1,5
+122758,log10(M),-4.0,CNS Cancer,U118/H.Fine,12,36,-4.592,1,5
+122758,log10(M),-4.0,CNS Cancer,U-373/H.Fine,12,37,-4.923,1,5

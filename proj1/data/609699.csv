@@ -1,0 +1,61 @@
+NSC,ConcentrationUnit,LogHighConc,CellPanelName,CellLineName,CellPanelNbr,CellLineNbr,logValue,NumTestsNSCCellLine,NumofExp
+609699,log10(M),-4.6,Leukemia,CCRF-CEM,7,3,-8.495,4,4
+609699,log10(M),-4.6,Leukemia,HL-60(TB),7,8,-8.266,3,4
+609699,log10(M),-4.6,Leukemia,K-562,7,5,-7.918,4,4
+609699,log10(M),-4.6,Leukemia,MOLT-4,7,6,-8.525,4,4
+609699,log10(M),-4.6,Leukemia,RPMI-8226,7,10,-7.087,3,4
+609699,log10(M),-4.6,Leukemia,SR,7,19,-8.486,3,4
+609699,log10(M),-4.6,Non-Small Cell Lung,A549/ATCC,1,4,-7.355,4,4
+609699,log10(M),-4.6,Non-Small Cell Lung,EKVX,1,8,-6.33,3,4
+609699,log10(M),-4.6,Non-Small Cell Lung,HOP-62,1,26,-8.207,4,4
+609699,log10(M),-4.6,Non-Small Cell Lung,HOP-92,1,29,-7.226,3,4
+609699,log10(M),-4.6,Non-Small Cell Lung,NCI-H226,1,13,-6.917,3,4
+609699,log10(M),-4.6,Non-Small Cell Lung,NCI-H23,1,1,-8.056,4,4
+609699,log10(M),-4.6,Non-Small Cell Lung,NCI-H322M,1,17,-6.496,3,4
+609699,log10(M),-4.6,Non-Small Cell Lung,NCI-H460,1,21,-8.341,4,4
+609699,log10(M),-4.6,Non-Small Cell Lung,NCI-H522,1,3,-7.915,4,4
+609699,log10(M),-4.6,Colon,COLO 205,4,10,-7.05,2,4
+609699,log10(M),-4.6,Colon,HCC-2998,4,2,-6.883,4,4
+609699,log10(M),-4.6,Colon,HCT-116,4,3,-7.965,4,4
+609699,log10(M),-4.6,Colon,HCT-15,4,15,-7.09,4,4
+609699,log10(M),-4.6,Colon,HT29,4,1,-7.23,3,4
+609699,log10(M),-4.6,Colon,KM12,4,17,-6.559,3,4
+609699,log10(M),-4.6,Colon,SW-620,4,9,-7.736,4,4
+609699,log10(M),-4.6,Central Nervous System,SF-268,12,14,-8.366,4,4
+609699,log10(M),-4.6,Central Nervous System,SF-295,12,15,-7.983,3,4
+609699,log10(M),-4.6,Central Nervous System,SF-539,12,16,-8.479,3,4
+609699,log10(M),-4.6,Central Nervous System,SNB-19,12,2,-7.716,2,4
+609699,log10(M),-4.6,Central Nervous System,SNB-75,12,5,-8.602,2,4
+609699,log10(M),-4.6,Central Nervous System,U251,12,9,-8.266,4,4
+609699,log10(M),-4.6,Melanoma,LOX IMVI,10,1,-8.221,4,4
+609699,log10(M),-4.6,Melanoma,MALME-3M,10,2,-6.805,4,4
+609699,log10(M),-4.6,Melanoma,M14,10,14,-8.141,4,4
+609699,log10(M),-4.6,Melanoma,MDA-MB-435,5,11,-6.967,2,4
+609699,log10(M),-4.6,Melanoma,MDA-N,5,12,-7.457,4,4
+609699,log10(M),-4.6,Melanoma,SK-MEL-2,10,5,-6.438,4,4
+609699,log10(M),-4.6,Melanoma,SK-MEL-28,10,8,-6.641,4,4
+609699,log10(M),-4.6,Melanoma,SK-MEL-5,10,7,-7.719,3,4
+609699,log10(M),-4.6,Melanoma,UACC-257,10,21,-7.17,3,4
+609699,log10(M),-4.6,Melanoma,UACC-62,10,20,-8.487,3,4
+609699,log10(M),-4.6,Ovarian,IGROV1,6,10,-6.935,4,4
+609699,log10(M),-4.6,Ovarian,OVCAR-3,6,1,-6.906,4,4
+609699,log10(M),-4.6,Ovarian,OVCAR-4,6,2,-6.371,4,4
+609699,log10(M),-4.6,Ovarian,OVCAR-5,6,3,-6.664,4,4
+609699,log10(M),-4.6,Ovarian,OVCAR-8,6,5,-7.087,4,4
+609699,log10(M),-4.6,Ovarian,NCI/ADR-RES,5,2,-6.45,4,4
+609699,log10(M),-4.6,Ovarian,SK-OV-3,6,11,-7.784,3,4
+609699,log10(M),-4.6,Renal,786-0,9,18,-7.107,4,4
+609699,log10(M),-4.6,Renal,A498,9,13,-7.524,3,4
+609699,log10(M),-4.6,Renal,ACHN,9,23,-8.324,4,4
+609699,log10(M),-4.6,Renal,CAKI-1,9,15,-8.296,4,4
+609699,log10(M),-4.6,Renal,RXF 393,9,16,-7.741,4,4
+609699,log10(M),-4.6,Renal,SN12C,9,8,-8.341,4,4
+609699,log10(M),-4.6,Renal,TK-10,9,24,-5.905,4,4
+609699,log10(M),-4.6,Renal,UO-31,9,4,-7.771,3,4
+609699,log10(M),-4.6,Prostate,PC-3,11,1,-7.372,3,4
+609699,log10(M),-4.6,Prostate,DU-145,11,3,-8.266,4,4
+609699,log10(M),-4.6,Breast,MCF7,5,1,-8.089,3,4
+609699,log10(M),-4.6,Breast,MDA-MB-231/ATCC,5,5,-6.406,3,4
+609699,log10(M),-4.6,Breast,HS 578T,5,6,-5.958,4,4
+609699,log10(M),-4.6,Breast,BT-549,5,13,-7.136,1,4
+609699,log10(M),-4.6,Breast,T-47D,5,14,-8.243,4,4

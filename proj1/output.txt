@@ -1,0 +1,482 @@
+Index(['NSC', 'CellPanelName', 'CellLineName', '109724'], dtype='object')
+Index(['NSC', 'CellPanelName', 'CellLineName', '122758'], dtype='object')
+Index(['NSC', 'CellPanelName', 'CellLineName', '123127'], dtype='object')
+Index(['NSC', 'CellPanelName', 'CellLineName', '141540'], dtype='object')
+Index(['NSC', 'CellPanelName', 'CellLineName', '296961'], dtype='object')
+Index(['NSC', 'CellPanelName', 'CellLineName', '301739'], dtype='object')
+Index(['NSC', 'CellPanelName', 'CellLineName', '362856'], dtype='object')
+Index(['NSC', 'CellPanelName', 'CellLineName', '369100'], dtype='object')
+Index(['NSC', 'CellPanelName', 'CellLineName', '45388'], dtype='object')
+Index(['NSC', 'CellPanelName', 'CellLineName', '49842'], dtype='object')
+Index(['NSC', 'CellPanelName', 'CellLineName', '609699'], dtype='object')
+Index(['NSC', 'CellPanelName', 'CellLineName', '613327'], dtype='object')
+Index(['NSC', 'CellPanelName', 'CellLineName', '686673'], dtype='object')
+Index(['NSC', 'CellPanelName', 'CellLineName', '702294'], dtype='object')
+Index(['NSC', 'CellPanelName', 'CellLineName', '712807'], dtype='object')
+Index(['NSC', 'CellPanelName', 'CellLineName', '718781'], dtype='object')
+Index(['NSC', 'CellPanelName', 'CellLineName', '719276'], dtype='object')
+Index(['NSC', 'CellPanelName', 'CellLineName', '719344'], dtype='object')
+Index(['NSC', 'CellPanelName', 'CellLineName', '732517'], dtype='object')
+Index(['NSC', 'CellPanelName', 'CellLineName', '733504'], dtype='object')
+Index(['NSC', 'CellPanelName', 'CellLineName', '745750'], dtype='object')
+Index(['NSC', 'CellPanelName', 'CellLineName', '747973'], dtype='object')
+Index(['NSC', 'CellPanelName', 'CellLineName', '747974'], dtype='object')
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                unknown   R-squared:                       0.761
+Model:                            OLS   Adj. R-squared:                  0.743
+Method:                 Least Squares   F-statistic:                     43.00
+Date:                Mon, 01 Mar 2021   Prob (F-statistic):           3.53e-16
+Time:                        19:28:52   Log-Likelihood:                -20.505
+No. Observations:                  59   AIC:                             51.01
+Df Residuals:                      54   BIC:                             61.40
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.5417      0.465     -1.165      0.249      -1.474       0.390
+718781         0.2090      0.090      2.331      0.024       0.029       0.389
+732517         0.0024      0.044      0.055      0.956      -0.086       0.091
+733504        -0.0206      0.046     -0.449      0.655      -0.113       0.071
+745750         0.7260      0.093      7.781      0.000       0.539       0.913
+==============================================================================
+Omnibus:                       12.740   Durbin-Watson:                   1.939
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               19.480
+Skew:                          -0.717   Prob(JB):                     5.89e-05
+Kurtosis:                       5.423   Cond. No.                         123.
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+########
+random seed: 0 
+########
+Training set R^2=  0.7296342039994141
+Training set MSE = 0.13417919368376294
+Test set R^2=  0.8797803230319067
+Test set MSE = 0.13417919368376294
+########
+random seed: 1 
+########
+Training set R^2=  0.7704732144752366
+Training set MSE = 0.12182460238088828
+Test set R^2=  0.6823737349284482
+Test set MSE = 0.12182460238088828
+########
+random seed: 2 
+########
+Training set R^2=  0.7576503814563453
+Training set MSE = 0.13365510041405204
+Test set R^2=  0.7253315186850557
+Test set MSE = 0.13365510041405204
+########
+random seed: 3 
+########
+Training set R^2=  0.7907588102625975
+Training set MSE = 0.12205154935105292
+Test set R^2=  -2.216326810532933
+Test set MSE = 0.12205154935105292
+########
+random seed: 4 
+########
+Training set R^2=  0.7797484559038739
+Training set MSE = 0.10848957946170322
+Test set R^2=  0.6463742231409122
+Test set MSE = 0.10848957946170322
+Using Cross Validate
+metric = R^2 {'fit_time': array([0.00199676, 0.00199866, 0.00199842, 0.00199914, 0.0020256 ]), 'score_time': array([0.00099969, 0.00099969, 0.00099969, 0.00099921, 0.00099087]), 'test_score': array([ 0.93603865, -1.26137933, -0.05130082,  0.60608167,  0.83616845]), 'train_score': array([0.69709034, 0.77912238, 0.81536194, 0.79518689, 0.70702531])}
+metric = MSE {'fit_time': array([0.00199819, 0.00199962, 0.00199914, 0.00199938, 0.0019989 ]), 'score_time': array([0.        , 0.00099897, 0.        , 0.00099874, 0.00099993]), 'test_score': array([-0.03937668, -0.08099826, -0.18898934, -0.2215715 , -0.14271431]), 'train_score': array([-0.13832532, -0.12761798, -0.10318177, -0.09424636, -0.11413514])}
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                unknown   R-squared:                       0.026
+Model:                            OLS   Adj. R-squared:                 -0.029
+Method:                 Least Squares   F-statistic:                    0.4724
+Date:                Mon, 01 Mar 2021   Prob (F-statistic):              0.703
+Time:                        19:28:52   Log-Likelihood:                -53.095
+No. Observations:                  58   AIC:                             114.2
+Df Residuals:                      54   BIC:                             122.4
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -1.6812      8.102     -0.208      0.836     -17.925      14.562
+109724        -1.0007      1.236     -0.810      0.422      -3.478       1.477
+362856         1.6174      2.114      0.765      0.448      -2.622       5.857
+45388          0.1553      0.356      0.437      0.664      -0.558       0.869
+==============================================================================
+Omnibus:                       27.128   Durbin-Watson:                   1.978
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               41.946
+Skew:                          -1.743   Prob(JB):                     7.79e-10
+Kurtosis:                       5.280   Cond. No.                         697.
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+########
+random seed: 0 
+########
+Training set R^2=  0.018617338798264438
+Training set MSE = 0.36959233937649616
+Test set R^2=  -0.0018400248277328222
+Test set MSE = 0.36959233937649616
+########
+random seed: 1 
+########
+Training set R^2=  0.03835849289313864
+Training set MSE = 0.39749671519512114
+Test set R^2=  -0.1366132097254844
+Test set MSE = 0.39749671519512114
+########
+random seed: 2 
+########
+Training set R^2=  0.03511992301803313
+Training set MSE = 0.4281334195227225
+Test set R^2=  -1.798826364928334
+Test set MSE = 0.4281334195227225
+########
+random seed: 3 
+########
+Training set R^2=  0.054193403658513994
+Training set MSE = 0.32604534274694397
+Test set R^2=  -0.12953399572679203
+Test set MSE = 0.32604534274694397
+########
+random seed: 4 
+########
+Training set R^2=  0.08507838637596687
+Training set MSE = 0.2632112276440859
+Test set R^2=  -0.20259365862232226
+Test set MSE = 0.2632112276440859
+Using Cross Validate
+metric = R^2 {'fit_time': array([0.00099969, 0.00199938, 0.00199819, 0.00201774, 0.00199938]), 'score_time': array([0.00099945, 0.00099874, 0.00099921, 0.        , 0.00099826]), 'test_score': array([-0.08178361, -0.00934731, -0.61626402, -0.08302442,  0.03083587]), 'train_score': array([0.05141636, 0.02703453, 0.05415745, 0.01565755, 0.01623592])}
+metric = MSE {'fit_time': array([0.00199866, 0.00099945, 0.00197816, 0.00199819, 0.00099969]), 'score_time': array([0.00099921, 0.00099993, 0.00099969, 0.00099993, 0.00099945]), 'test_score': array([-0.45749827, -0.29700349, -0.30509555, -0.61359927, -0.34326195]), 'train_score': array([-0.34371438, -0.38399257, -0.39357193, -0.31439762, -0.37293638])}
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                unknown   R-squared:                       0.029
+Model:                            OLS   Adj. R-squared:                 -0.050
+Method:                 Least Squares   F-statistic:                    0.3641
+Date:                Mon, 01 Mar 2021   Prob (F-statistic):              0.833
+Time:                        19:28:52   Log-Likelihood:                -49.620
+No. Observations:                  54   AIC:                             109.2
+Df Residuals:                      49   BIC:                             119.2
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -6.4403      2.306     -2.793      0.007     -11.075      -1.806
+702294         0.1665      0.432      0.385      0.702      -0.702       1.035
+719276         0.0367      0.181      0.202      0.841      -0.328       0.401
+719344        -0.1943      0.215     -0.902      0.371      -0.627       0.238
+747974        -0.2228      0.315     -0.708      0.482      -0.855       0.409
+==============================================================================
+Omnibus:                       20.980   Durbin-Watson:                   1.784
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               27.293
+Skew:                          -1.548   Prob(JB):                     1.18e-06
+Kurtosis:                       4.596   Cond. No.                         242.
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+########
+random seed: 0 
+########
+Training set R^2=  0.003974433446451098
+Training set MSE = 0.371642586283922
+Test set R^2=  -0.05294067434150129
+Test set MSE = 0.371642586283922
+########
+random seed: 1 
+########
+Training set R^2=  0.02719187923009958
+Training set MSE = 0.2923754035494969
+Test set R^2=  -0.37700462100195065
+Test set MSE = 0.2923754035494969
+########
+random seed: 2 
+########
+Training set R^2=  0.04702495987392086
+Training set MSE = 0.4278481265364135
+Test set R^2=  -1.6736420007918853
+Test set MSE = 0.4278481265364135
+########
+random seed: 3 
+########
+Training set R^2=  0.04478833764079826
+Training set MSE = 0.31230732917869225
+Test set R^2=  -0.10038731844335747
+Test set MSE = 0.31230732917869225
+########
+random seed: 4 
+########
+Training set R^2=  0.05079790678226148
+Training set MSE = 0.32106322496574485
+Test set R^2=  -0.07230070419487888
+Test set MSE = 0.32106322496574485
+Using Cross Validate
+metric = R^2 {'fit_time': array([0.00099993, 0.00199747, 0.00201988, 0.00199795, 0.00199962]), 'score_time': array([0.00099874, 0.00099921, 0.00099993, 0.0010004 , 0.00099897]), 'test_score': array([-0.09255078, -0.01315662, -0.25572155, -0.0373919 , -0.21609181]), 'train_score': array([0.05018945, 0.03170669, 0.02920116, 0.03282957, 0.05187144])}
+metric = MSE {'fit_time': array([0.00197864, 0.00199842, 0.0019989 , 0.00199866, 0.0019989 ]), 'score_time': array([0.00099969, 0.00099969, 0.00099969, 0.00099969, 0.00099945]), 'test_score': array([-0.49883214, -0.31456455, -0.25679547, -0.3999307 , -0.61676272]), 'train_score': array([-0.34085512, -0.38227825, -0.40694297, -0.36409128, -0.32507688])}
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                unknown   R-squared:                       0.030
+Model:                            OLS   Adj. R-squared:                 -0.007
+Method:                 Least Squares   F-statistic:                    0.8163
+Date:                Mon, 01 Mar 2021   Prob (F-statistic):              0.448
+Time:                        19:28:52   Log-Likelihood:                -45.391
+No. Observations:                  55   AIC:                             96.78
+Df Residuals:                      52   BIC:                             102.8
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -6.0248      2.141     -2.814      0.007     -10.321      -1.728
+49842          0.1431      0.131      1.088      0.281      -0.121       0.407
+747973        -0.1787      0.209     -0.853      0.397      -0.599       0.242
+==============================================================================
+Omnibus:                       24.154   Durbin-Watson:                   1.842
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               35.192
+Skew:                          -1.614   Prob(JB):                     2.28e-08
+Kurtosis:                       5.220   Cond. No.                         355.
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+########
+random seed: 0 
+########
+Training set R^2=  0.025823030846628847
+Training set MSE = 0.29171415903883396
+Test set R^2=  -0.0011724099534700105
+Test set MSE = 0.29171415903883396
+########
+random seed: 1 
+########
+Training set R^2=  0.044664780319697894
+Training set MSE = 0.3331804294646403
+Test set R^2=  -0.3437271653791225
+Test set MSE = 0.3331804294646403
+########
+random seed: 2 
+########
+Training set R^2=  0.022560426756060403
+Training set MSE = 0.3149022944825701
+Test set R^2=  -0.056318886921984605
+Test set MSE = 0.3149022944825701
+########
+random seed: 3 
+########
+Training set R^2=  0.018825179983874007
+Training set MSE = 0.2569711388794671
+Test set R^2=  -0.00043203447691642083
+Test set MSE = 0.2569711388794671
+########
+random seed: 4 
+########
+Training set R^2=  0.01772496620580799
+Training set MSE = 0.21175769091485738
+Test set R^2=  -0.04721166170748692
+Test set MSE = 0.21175769091485738
+Using Cross Validate
+metric = R^2 {'fit_time': array([0.0020175 , 0.00199914, 0.00299811, 0.00199962, 0.00197792]), 'score_time': array([0.0009985 , 0.00099969, 0.00099921, 0.        , 0.00099945]), 'test_score': array([-0.04317449, -0.01349982, -0.98360221,  0.02416215, -0.216972  ]), 'train_score': array([0.03965585, 0.03155221, 0.03896584, 0.02247104, 0.04283526])}
+metric = MSE {'fit_time': array([0.00199795, 0.002002  , 0.00199866, 0.00199795, 0.00099921]), 'score_time': array([0.00099969, 0.00099874, 0.00099993, 0.0010004 , 0.00099969]), 'test_score': array([-0.43777923, -0.33940837, -0.14010186, -0.23330993, -0.50500409]), 'train_score': array([-0.27376199, -0.29814549, -0.35026165, -0.32548995, -0.26501995])}
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                unknown   R-squared:                       0.045
+Model:                            OLS   Adj. R-squared:                 -0.021
+Method:                 Least Squares   F-statistic:                    0.6789
+Date:                Mon, 01 Mar 2021   Prob (F-statistic):              0.570
+Time:                        19:28:53   Log-Likelihood:                -42.491
+No. Observations:                  47   AIC:                             92.98
+Df Residuals:                      43   BIC:                             100.4
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -6.2259      2.138     -2.912      0.006     -10.538      -1.914
+122758        -0.5726      0.415     -1.381      0.174      -1.409       0.263
+296961         0.2291      0.454      0.505      0.616      -0.686       1.144
+369100         0.2116      0.448      0.472      0.639      -0.693       1.116
+==============================================================================
+Omnibus:                       17.313   Durbin-Watson:                   2.116
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               20.339
+Skew:                          -1.497   Prob(JB):                     3.83e-05
+Kurtosis:                       4.194   Cond. No.                         167.
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+########
+random seed: 0 
+########
+Training set R^2=  0.36143944422717533
+Training set MSE = 0.18547745860723389
+Test set R^2=  -3.5809871496874712
+Test set MSE = 0.18547745860723389
+########
+random seed: 1 
+########
+Training set R^2=  0.03529702963022574
+Training set MSE = 0.41752435320016246
+Test set R^2=  -0.09521954513847652
+Test set MSE = 0.41752435320016246
+########
+random seed: 2 
+########
+Training set R^2=  0.03926565305950491
+Training set MSE = 0.3916911672750616
+Test set R^2=  0.07477177771709165
+Test set MSE = 0.3916911672750616
+########
+random seed: 3 
+########
+Training set R^2=  0.0257967729354166
+Training set MSE = 0.3400862028270259
+Test set R^2=  -0.013959614169568146
+Test set MSE = 0.3400862028270259
+########
+random seed: 4 
+########
+Training set R^2=  0.3303621452355566
+Training set MSE = 0.24717073000430512
+Test set R^2=  -4.578230192573449
+Test set MSE = 0.24717073000430512
+Using Cross Validate
+metric = R^2 {'fit_time': array([0.00099969, 0.00199795, 0.00297832, 0.00199914, 0.0019989 ]), 'score_time': array([0.0009985 , 0.00100064, 0.        , 0.00099921, 0.00099969]), 'test_score': array([-5.91933172, -0.33472911, -1.23272842, -0.0572152 , -0.44282775]), 'train_score': array([0.3407204 , 0.09367653, 0.0427713 , 0.06121628, 0.03747265])}
+metric = MSE {'fit_time': array([0.00099945, 0.00201917, 0.00199795, 0.00199914, 0.00099897]), 'score_time': array([0.00099945, 0.00198054, 0.        , 0.00099897, 0.00100017]), 'test_score': array([-3.19406185, -0.48533041, -0.14575075, -0.42847979, -0.64182967]), 'train_score': array([-0.2300313 , -0.33899787, -0.41134533, -0.34307177, -0.3314964 ])}
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                unknown   R-squared:                       0.075
+Model:                            OLS   Adj. R-squared:                 -0.015
+Method:                 Least Squares   F-statistic:                    0.8364
+Date:                Mon, 01 Mar 2021   Prob (F-statistic):              0.510
+Time:                        19:28:53   Log-Likelihood:                -44.401
+No. Observations:                  46   AIC:                             98.80
+Df Residuals:                      41   BIC:                             107.9
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -5.9074     32.765     -0.180      0.858     -72.078      60.263
+123127         0.0036      0.128      0.028      0.978      -0.254       0.262
+141540         0.2568      5.472      0.047      0.963     -10.793      11.307
+301739        -0.0749      0.229     -0.327      0.746      -0.538       0.388
+609699        -0.1943      0.208     -0.934      0.356      -0.614       0.226
+==============================================================================
+Omnibus:                        9.694   Durbin-Watson:                   1.853
+Prob(Omnibus):                  0.008   Jarque-Bera (JB):                9.630
+Skew:                          -1.109   Prob(JB):                      0.00811
+Kurtosis:                       3.321   Cond. No.                     4.73e+03
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 4.73e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+########
+random seed: 0 
+########
+Training set R^2=  0.10947549134638279
+Training set MSE = 0.40126227940515824
+Test set R^2=  -0.3215557504345914
+Test set MSE = 0.40126227940515824
+########
+random seed: 1 
+########
+Training set R^2=  0.13309239093988579
+Training set MSE = 0.38425065110013973
+Test set R^2=  -0.525738697887492
+Test set MSE = 0.38425065110013973
+########
+random seed: 2 
+########
+Training set R^2=  0.12935923924869452
+Training set MSE = 0.33799818040239243
+Test set R^2=  -0.25936760741719334
+Test set MSE = 0.33799818040239243
+########
+random seed: 3 
+########
+Training set R^2=  0.09650570402378944
+Training set MSE = 0.35110076330442386
+Test set R^2=  -0.45852671774979936
+Test set MSE = 0.35110076330442386
+########
+random seed: 4 
+########
+Training set R^2=  0.06278827411222188
+Training set MSE = 0.4207736216695289
+Test set R^2=  0.10422375830989816
+Test set MSE = 0.4207736216695289
+Using Cross Validate
+metric = R^2 {'fit_time': array([0.00197983, 0.0019989 , 0.00199914, 0.00099969, 0.00200176]), 'score_time': array([0.00099778, 0.00099969, 0.        , 0.00099921, 0.00099802]), 'test_score': array([ 0.0463403 ,  0.03677503, -2.13627891, -0.37458864, -0.57335295]), 'train_score': array([0.05161407, 0.06214555, 0.05647915, 0.11221109, 0.17411502])}
+metric = MSE {'fit_time': array([0.00299835, 0.00199842, 0.0029974 , 0.00299859, 0.00299835]), 'score_time': array([0.00099945, 0.00199914, 0.00199842, 0.00099945, 0.00099921]), 'test_score': array([-0.44022287, -0.38266098, -0.1598827 , -0.52097707, -0.95703696]), 'train_score': array([-0.40727674, -0.41466716, -0.46737152, -0.39933694, -0.28809893])}
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                unknown   R-squared:                       0.044
+Model:                            OLS   Adj. R-squared:                 -0.012
+Method:                 Least Squares   F-statistic:                    0.7820
+Date:                Mon, 01 Mar 2021   Prob (F-statistic):              0.509
+Time:                        19:28:53   Log-Likelihood:                -51.596
+No. Observations:                  55   AIC:                             111.2
+Df Residuals:                      51   BIC:                             119.2
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -6.8522      1.457     -4.703      0.000      -9.777      -3.927
+613327        -0.1612      0.182     -0.888      0.379      -0.526       0.203
+686673        -0.3049      0.270     -1.128      0.265      -0.848       0.238
+712807         0.2252      0.293      0.769      0.446      -0.363       0.813
+==============================================================================
+Omnibus:                       16.142   Durbin-Watson:                   1.651
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               18.642
+Skew:                          -1.359   Prob(JB):                     8.95e-05
+Kurtosis:                       3.863   Cond. No.                         151.
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+########
+random seed: 0 
+########
+Training set R^2=  0.037099278126915713
+Training set MSE = 0.3692336044319504
+Test set R^2=  -0.058473205508775994
+Test set MSE = 0.3692336044319504
+########
+random seed: 1 
+########
+Training set R^2=  0.1111040332817248
+Training set MSE = 0.3391532294313973
+Test set R^2=  -4.138281108556087
+Test set MSE = 0.3391532294313973
+########
+random seed: 2 
+########
+Training set R^2=  0.057554570532402656
+Training set MSE = 0.38820012654628133
+Test set R^2=  -0.11614065082845948
+Test set MSE = 0.38820012654628133
+########
+random seed: 3 
+########
+Training set R^2=  0.044373181548438057
+Training set MSE = 0.3576850897009992
+Test set R^2=  0.028644132197984007
+Test set MSE = 0.3576850897009992
+########
+random seed: 4 
+########
+Training set R^2=  0.04485966868669711
+Training set MSE = 0.29079310684614756
+Test set R^2=  -0.21503437040909223
+Test set MSE = 0.29079310684614756
+Using Cross Validate
+metric = R^2 {'fit_time': array([0.00199938, 0.00200009, 0.0019989 , 0.00200796, 0.00199938]), 'score_time': array([0.        , 0.00099921, 0.        , 0.00100875, 0.00099921]), 'test_score': array([-0.11213089, -0.10199183, -6.55062798, -0.16541719, -0.35579021]), 'train_score': array([0.06006408, 0.05318505, 0.08933654, 0.04049776, 0.1197247 ])}
+metric = MSE {'fit_time': array([0.002985  , 0.00200152, 0.00199842, 0.0019989 , 0.002985  ]), 'score_time': array([0.00099969, 0.00099945, 0.00099945, 0.        , 0.00098014]), 'test_score': array([-0.46671751, -0.36904324, -1.53951414, -0.43889702, -0.76115075]), 'train_score': array([-0.37070806, -0.38838096, -0.3998255 , -0.38829149, -0.30319477])}

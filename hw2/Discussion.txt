@@ -1,0 +1,9 @@
+C. R^2 value = 0.823 and RSE = 0.01 indicating good fit.
+C.2. plots of residuals and leverages show that linear regression
+is a good model and there don't seem to be many outliers.
+
+D. Lower R^2 and RSE values indicate worse fit when data is split.
+
+E. Removing polar surface area and molecular weight seemed to have
+large effects on the R^2 value, while the other variables 
+seemed to have modest affects on the R^2 values.
